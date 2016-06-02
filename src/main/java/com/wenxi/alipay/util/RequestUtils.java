@@ -19,7 +19,7 @@ public class RequestUtils {
 
 				String[] value = rawParam.get(key);
 				if (value != null && value.length == 1) {
-					underScoreKeyMap.put(key, value[1]);
+					underScoreKeyMap.put(key, value[0]);
 				}
 			}
 		}

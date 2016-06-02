@@ -59,7 +59,7 @@ public class AsynAlipayNotifyController {
 				}
 				//fail due to verification error
 				else{
-					printWriter.print("fail");
+					resultResponse = "fail";
 				}
 				
 			} catch (Exception e) {
